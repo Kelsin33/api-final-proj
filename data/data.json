@@ -1,0 +1,168 @@
+{
+	"overall": {
+		"totalDeaths": 1284,
+		"femaleDeaths": 91,
+		"maleDeaths": 1193,
+		"countries": 31,
+		"crossfire": 295,
+		"dangerousAssignment": 163,
+		"murder": 822
+	},
+	"femaleCountries": [
+		{
+			"country": "Afghanistan",
+			"femTotal": 6,
+			"percentage": 0.065
+		},
+		{
+			"state": "Algeria",
+			"femTotal": 7,
+			"percentage": 0.076
+		},
+		{
+			"state": "Bosnia",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"state": "Central African Republic",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"state": "Colombia",
+			"femTotal": 3,
+			"percentage": 0.032
+		},
+		{
+			"country": "Denmark",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Egypt",
+			"femTotal": 2,
+			"percentage": 0.021
+		},
+		{
+			"country": "France",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Georgia",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "India",
+			"femTotal": 2,
+			"percentage": 0.021
+		},
+		{
+			"country": "Iran",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Iraq",
+			"femTotal": 16,
+			"percentage": 0.175
+		},
+		{
+			"country": "Ireland",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Lebanon",
+			"femTotal": 2,
+			"percentage": 0.021
+		},
+		{
+			"country": "Mali",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Malta",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Mexico",
+			"femTotal": 6,
+			"percentage": 0.065
+		},
+		{
+			"country": "Nepal",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Nicaragua",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Peru",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Philippines",
+			"femTotal": 7,
+			"percentage": 0.076
+		},
+		{
+			"country": "Russia",
+			"femTotal": 9,
+			"percentage": 0.098
+		},
+		{
+			"country": "Rwanda",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Somalia",
+			"femTotal": 4,
+			"percentage": 0.043
+		},
+		{
+			"country": "South Sudan",
+			"femTotal": 2,
+			"percentage": 0.021
+		},
+		{
+			"country": "Sri Lanka",
+			"femTotal": 3,
+			"percentage": 0.032
+		},
+		{
+			"country": "Syria",
+			"femTotal": 7,
+			"percentage": 0.076
+		},
+		{
+			"country": "Turkey",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Turkmenistan",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "USA",
+			"femTotal": 1,
+			"percentage": 0.010
+		},
+		{
+			"country": "Venezuela",
+			"femTotal": 1,
+			"percentage": 0.010
+		}
+	]
+}

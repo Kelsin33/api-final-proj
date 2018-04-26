@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Journalist Deaths 92-18</title>
+
+    <!-- Custom Font - Change 'Muli' to the font you want-->
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Custom CSS inside CSS folder -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading-holder">
+        <h1>Journalists Killed between 1992 and 2018</h1>
+          <h2>With Motive Confirmed</h2>
+      </div>
+      <!-- ROW 1-->
+      <div class="row">
+        <div class="col-md-6 stats-holder">
+            <span id="totalDeaths"></span>
+            <p>"CPJ has detailed records on journalist fatalities since 1992.
+            Staff members independently investigate and verify the circumstances behind each death.
+            CPJ considers a case "confirmed" as work-related only when reasonably certain that a
+            journalist was murdered in direct reprisal for his or her work; in combat or crossfire;
+            or while carrying out a dangerous assignment. Cases involving unclear motives, but with
+            a potential link to journalism, are classified as "unconfirmed" and CPJ continues to
+            investigate. We do not include journalists who are killed in accidents such as car or
+            plane crashes."</p>
+          </div>
+          <div class="col-md-6 stats-holder">
+              <span id="femaleDeaths"></span>
+              <p>"2017 was particularly deadly for women. While the historical average of women
+                journalists killed is 7 percent, this year, it peaked at 19 percent. That may be
+                because more women are covering dangerous beats and regions than in previous years,
+                said Lauren Wolfe, an investigative journalist and the director of
+                the Women’s Media Center’s Women Under Siege program."</p>
+            </div>
+            <div class="col-md-6 stats-holder">
+                <span id="maleDeaths"></span>
+                <p>" 'We’ve seen men who have been imprisoned go back on the job, we’ve seen men
+                  who had been kidnapped get hostile environment jobs. It doesn’t seem to impair
+                  their ability to report back at these environments, whereas women are automatically
+                  treated as having been damaged in some way and in need of protection,' "</p>
+              </div>
+              <br>
+      </div>
+
+      <div class="row">
+          <div class="col-md-8">
+          <h4>Causes of Death</h4>
+          Crossfire:  <span id="crossfire"></span>
+          Dangerous Assignments:  <span id="dangerousAssignment"></span>
+          Murder:  <span id="murder"></span>
+          <!-- <div class="stats-holder">
+            Crossfire
+            <br>
+            <span id="crossfire"></span>
+          </div>
+          <div class="stats-holder">
+            Dangerous Assignment
+            <br>
+            <span id="dangerousAssignment"></span>
+          </div>
+          <div class="stats-holder">
+            Murder
+            <br>
+            <span id="murder"></span>
+          </div> -->
+          <div class="doughnutChartHolder">
+              <!-- DOUGHNUT CHART CANVAS -->
+              <canvas id="doughnutChart2"></canvas>
+          </div>
+        </div>
+        <div class="col-md-4 stats-holder">
+            <img src="public/img/people.png">
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-12 stats-holder">
+              <h4>Female Deaths by Country</h4>
+              <canvas id="barChart"></canvas>
+            </div>
+        </div>
+
+      </div>
+      <h5>Source: <a href="https://cpj.org/" target="_blank">Committee to Protect Journalists</a></h5>
+    </div>
+  </body>
+
+    <!-- JQuery script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- CHART JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/main.js"></script>
+</html>
